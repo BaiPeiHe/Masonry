@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		5E33D736ADAEA0D430FA7C9C /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF43A17E9E847B71DE60B40 /* libPods-Example.a */; };
 		E2090A111D757A5A0093CD41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A101D757A5A0093CD41 /* main.m */; };
-		E2090A141D757A5A0093CD41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A131D757A5A0093CD41 /* AppDelegate.m */; };
-		E2090A171D757A5A0093CD41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A161D757A5A0093CD41 /* ViewController.m */; };
 		E2090A1A1D757A5A0093CD41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2090A181D757A5A0093CD41 /* Main.storyboard */; };
 		E2090A1C1D757A5A0093CD41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2090A1B1D757A5A0093CD41 /* Assets.xcassets */; };
 		E2090A1F1D757A5A0093CD41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2090A1D1D757A5A0093CD41 /* LaunchScreen.storyboard */; };
 		E2090A2A1D757A5A0093CD41 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A291D757A5A0093CD41 /* ExampleTests.m */; };
 		E2090A351D757A5A0093CD41 /* ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A341D757A5A0093CD41 /* ExampleUITests.m */; };
+		E2090A471D757BD50093CD41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A451D757BD50093CD41 /* AppDelegate.m */; };
+		E2090A4A1D757C0A0093CD41 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A491D757C0A0093CD41 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +41,6 @@
 		B093E8E3D571A5AA2A7583F5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E2090A0C1D757A5A0093CD41 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2090A101D757A5A0093CD41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E2090A121D757A5A0093CD41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E2090A131D757A5A0093CD41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E2090A151D757A5A0093CD41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E2090A161D757A5A0093CD41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E2090A191D757A5A0093CD41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2090A1B1D757A5A0093CD41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2090A1E1D757A5A0093CD41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +51,11 @@
 		E2090A301D757A5A0093CD41 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2090A341D757A5A0093CD41 /* ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleUITests.m; sourceTree = "<group>"; };
 		E2090A361D757A5A0093CD41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2090A441D757BD50093CD41 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2090A451D757BD50093CD41 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2090A481D757C0A0093CD41 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E2090A491D757C0A0093CD41 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E2090A4B1D757F810093CD41 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,10 +126,8 @@
 		E2090A0E1D757A5A0093CD41 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				E2090A121D757A5A0093CD41 /* AppDelegate.h */,
-				E2090A131D757A5A0093CD41 /* AppDelegate.m */,
-				E2090A151D757A5A0093CD41 /* ViewController.h */,
-				E2090A161D757A5A0093CD41 /* ViewController.m */,
+				E2090A431D757BD50093CD41 /* Application */,
+				E2090A461D757BD50093CD41 /* Controller */,
 				E2090A421D757A740093CD41 /* Others */,
 				E2090A0F1D757A5A0093CD41 /* Supporting Files */,
 			);
@@ -170,6 +169,25 @@
 				E2090A201D757A5A0093CD41 /* Info.plist */,
 			);
 			name = Others;
+			sourceTree = "<group>";
+		};
+		E2090A431D757BD50093CD41 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E2090A441D757BD50093CD41 /* AppDelegate.h */,
+				E2090A451D757BD50093CD41 /* AppDelegate.m */,
+				E2090A4B1D757F810093CD41 /* PrefixHeader.pch */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E2090A461D757BD50093CD41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2090A481D757C0A0093CD41 /* RootViewController.h */,
+				E2090A491D757C0A0093CD41 /* RootViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,9 +374,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2090A171D757A5A0093CD41 /* ViewController.m in Sources */,
-				E2090A141D757A5A0093CD41 /* AppDelegate.m in Sources */,
+				E2090A471D757BD50093CD41 /* AppDelegate.m in Sources */,
 				E2090A111D757A5A0093CD41 /* main.m in Sources */,
+				E2090A4A1D757C0A0093CD41 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,10 +520,12 @@
 			baseConfigurationReference = B093E8E3D571A5AA2A7583F5 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Example/Application/PrefixHeader.pch";
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baihe.masonry.example.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -514,10 +534,12 @@
 			baseConfigurationReference = 8259647767D691065915F60C /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Example/Application/PrefixHeader.pch";
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baihe.masonry.example.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
