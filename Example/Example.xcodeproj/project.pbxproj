@@ -16,6 +16,11 @@
 		E2090A351D757A5A0093CD41 /* ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A341D757A5A0093CD41 /* ExampleUITests.m */; };
 		E2090A471D757BD50093CD41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A451D757BD50093CD41 /* AppDelegate.m */; };
 		E2090A4A1D757C0A0093CD41 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A491D757C0A0093CD41 /* RootViewController.m */; };
+		E2090A531D7676970093CD41 /* Case1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A521D7676970093CD41 /* Case1ViewController.m */; };
+		E2090A561D7689840093CD41 /* Case2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A551D7689840093CD41 /* Case2ViewController.m */; };
+		E2090A591D76898D0093CD41 /* Case3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A581D76898D0093CD41 /* Case3ViewController.m */; };
+		E2090A5C1D7689980093CD41 /* Case4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A5B1D7689980093CD41 /* Case4ViewController.m */; };
+		E2090A5F1D7689A00093CD41 /* Case5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A5E1D7689A00093CD41 /* Case5ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,16 @@
 		E2090A481D757C0A0093CD41 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		E2090A491D757C0A0093CD41 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		E2090A4B1D757F810093CD41 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E2090A511D7676970093CD41 /* Case1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case1ViewController.h; sourceTree = "<group>"; };
+		E2090A521D7676970093CD41 /* Case1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case1ViewController.m; sourceTree = "<group>"; };
+		E2090A541D7689840093CD41 /* Case2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case2ViewController.h; sourceTree = "<group>"; };
+		E2090A551D7689840093CD41 /* Case2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case2ViewController.m; sourceTree = "<group>"; };
+		E2090A571D76898D0093CD41 /* Case3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case3ViewController.h; sourceTree = "<group>"; };
+		E2090A581D76898D0093CD41 /* Case3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case3ViewController.m; sourceTree = "<group>"; };
+		E2090A5A1D7689980093CD41 /* Case4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case4ViewController.h; sourceTree = "<group>"; };
+		E2090A5B1D7689980093CD41 /* Case4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case4ViewController.m; sourceTree = "<group>"; };
+		E2090A5D1D7689A00093CD41 /* Case5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case5ViewController.h; sourceTree = "<group>"; };
+		E2090A5E1D7689A00093CD41 /* Case5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case5ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +143,11 @@
 			children = (
 				E2090A431D757BD50093CD41 /* Application */,
 				E2090A461D757BD50093CD41 /* Controller */,
+				E2090A4C1D76766C0093CD41 /* Cose 01 */,
+				E2090A4D1D76766C0093CD41 /* Cose 02 */,
+				E2090A4E1D76766C0093CD41 /* Cose 03 */,
+				E2090A4F1D76766C0093CD41 /* Cose 04 */,
+				E2090A501D76766C0093CD41 /* Cose 05 */,
 				E2090A421D757A740093CD41 /* Others */,
 				E2090A0F1D757A5A0093CD41 /* Supporting Files */,
 			);
@@ -188,6 +208,51 @@
 				E2090A491D757C0A0093CD41 /* RootViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2090A4C1D76766C0093CD41 /* Cose 01 */ = {
+			isa = PBXGroup;
+			children = (
+				E2090A511D7676970093CD41 /* Case1ViewController.h */,
+				E2090A521D7676970093CD41 /* Case1ViewController.m */,
+			);
+			path = "Cose 01";
+			sourceTree = "<group>";
+		};
+		E2090A4D1D76766C0093CD41 /* Cose 02 */ = {
+			isa = PBXGroup;
+			children = (
+				E2090A541D7689840093CD41 /* Case2ViewController.h */,
+				E2090A551D7689840093CD41 /* Case2ViewController.m */,
+			);
+			path = "Cose 02";
+			sourceTree = "<group>";
+		};
+		E2090A4E1D76766C0093CD41 /* Cose 03 */ = {
+			isa = PBXGroup;
+			children = (
+				E2090A571D76898D0093CD41 /* Case3ViewController.h */,
+				E2090A581D76898D0093CD41 /* Case3ViewController.m */,
+			);
+			path = "Cose 03";
+			sourceTree = "<group>";
+		};
+		E2090A4F1D76766C0093CD41 /* Cose 04 */ = {
+			isa = PBXGroup;
+			children = (
+				E2090A5A1D7689980093CD41 /* Case4ViewController.h */,
+				E2090A5B1D7689980093CD41 /* Case4ViewController.m */,
+			);
+			path = "Cose 04";
+			sourceTree = "<group>";
+		};
+		E2090A501D76766C0093CD41 /* Cose 05 */ = {
+			isa = PBXGroup;
+			children = (
+				E2090A5D1D7689A00093CD41 /* Case5ViewController.h */,
+				E2090A5E1D7689A00093CD41 /* Case5ViewController.m */,
+			);
+			path = "Cose 05";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,8 +439,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2090A5F1D7689A00093CD41 /* Case5ViewController.m in Sources */,
+				E2090A531D7676970093CD41 /* Case1ViewController.m in Sources */,
 				E2090A471D757BD50093CD41 /* AppDelegate.m in Sources */,
+				E2090A591D76898D0093CD41 /* Case3ViewController.m in Sources */,
+				E2090A561D7689840093CD41 /* Case2ViewController.m in Sources */,
 				E2090A111D757A5A0093CD41 /* main.m in Sources */,
+				E2090A5C1D7689980093CD41 /* Case4ViewController.m in Sources */,
 				E2090A4A1D757C0A0093CD41 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
