@@ -17,6 +17,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self createView];
+    
+}
+
+- (void)createView{
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIView *containerView = [UIView new];
+    [self.view addSubview:containerView];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
