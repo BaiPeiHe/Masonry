@@ -21,6 +21,7 @@
 		E2090A591D76898D0093CD41 /* Case3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A581D76898D0093CD41 /* Case3ViewController.m */; };
 		E2090A5C1D7689980093CD41 /* Case4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A5B1D7689980093CD41 /* Case4ViewController.m */; };
 		E2090A5F1D7689A00093CD41 /* Case5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A5E1D7689A00093CD41 /* Case5ViewController.m */; };
+		E24F1E3F1D76E04C00BDDD64 /* AutoHightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F1E3E1D76E04C00BDDD64 /* AutoHightTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		E2090A5B1D7689980093CD41 /* Case4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case4ViewController.m; sourceTree = "<group>"; };
 		E2090A5D1D7689A00093CD41 /* Case5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case5ViewController.h; sourceTree = "<group>"; };
 		E2090A5E1D7689A00093CD41 /* Case5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case5ViewController.m; sourceTree = "<group>"; };
+		E24F1E3D1D76E04C00BDDD64 /* AutoHightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoHightTableViewCell.h; sourceTree = "<group>"; };
+		E24F1E3E1D76E04C00BDDD64 /* AutoHightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoHightTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +245,8 @@
 			children = (
 				E2090A5A1D7689980093CD41 /* Case4ViewController.h */,
 				E2090A5B1D7689980093CD41 /* Case4ViewController.m */,
+				E24F1E3D1D76E04C00BDDD64 /* AutoHightTableViewCell.h */,
+				E24F1E3E1D76E04C00BDDD64 /* AutoHightTableViewCell.m */,
 			);
 			path = "Cose 04";
 			sourceTree = "<group>";
@@ -446,6 +451,7 @@
 				E2090A561D7689840093CD41 /* Case2ViewController.m in Sources */,
 				E2090A111D757A5A0093CD41 /* main.m in Sources */,
 				E2090A5C1D7689980093CD41 /* Case4ViewController.m in Sources */,
+				E24F1E3F1D76E04C00BDDD64 /* AutoHightTableViewCell.m in Sources */,
 				E2090A4A1D757C0A0093CD41 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
