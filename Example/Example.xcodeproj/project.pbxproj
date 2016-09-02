@@ -22,6 +22,12 @@
 		E2090A5C1D7689980093CD41 /* Case4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A5B1D7689980093CD41 /* Case4ViewController.m */; };
 		E2090A5F1D7689A00093CD41 /* Case5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A5E1D7689A00093CD41 /* Case5ViewController.m */; };
 		E24F1E3F1D76E04C00BDDD64 /* AutoHightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F1E3E1D76E04C00BDDD64 /* AutoHightTableViewCell.m */; };
+		E2FA61721D79245700003890 /* Case6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA61711D79245700003890 /* Case6ViewController.m */; };
+		E2FA61771D79279B00003890 /* NHBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA61761D79279B00003890 /* NHBaseModel.m */; };
+		E2FA61791D79290100003890 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E2FA61781D79290100003890 /* data.json */; };
+		E2FA617C1D79298D00003890 /* Case5Model.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA617B1D79298D00003890 /* Case5Model.m */; };
+		E2FA617F1D792AD300003890 /* Case5TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA617E1D792AD300003890 /* Case5TableViewCell.m */; };
+		E2FA61831D7967D700003890 /* UILabel+ContentSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA61821D7967D700003890 /* UILabel+ContentSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +80,17 @@
 		E2090A5E1D7689A00093CD41 /* Case5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case5ViewController.m; sourceTree = "<group>"; };
 		E24F1E3D1D76E04C00BDDD64 /* AutoHightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoHightTableViewCell.h; sourceTree = "<group>"; };
 		E24F1E3E1D76E04C00BDDD64 /* AutoHightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoHightTableViewCell.m; sourceTree = "<group>"; };
+		E2FA61701D79245700003890 /* Case6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case6ViewController.h; sourceTree = "<group>"; };
+		E2FA61711D79245700003890 /* Case6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case6ViewController.m; sourceTree = "<group>"; };
+		E2FA61751D79279B00003890 /* NHBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHBaseModel.h; sourceTree = "<group>"; };
+		E2FA61761D79279B00003890 /* NHBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBaseModel.m; sourceTree = "<group>"; };
+		E2FA61781D79290100003890 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		E2FA617A1D79298D00003890 /* Case5Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case5Model.h; sourceTree = "<group>"; };
+		E2FA617B1D79298D00003890 /* Case5Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case5Model.m; sourceTree = "<group>"; };
+		E2FA617D1D792AD300003890 /* Case5TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case5TableViewCell.h; sourceTree = "<group>"; };
+		E2FA617E1D792AD300003890 /* Case5TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case5TableViewCell.m; sourceTree = "<group>"; };
+		E2FA61811D7967D700003890 /* UILabel+ContentSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ContentSize.h"; sourceTree = "<group>"; };
+		E2FA61821D7967D700003890 /* UILabel+ContentSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ContentSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +161,7 @@
 		E2090A0E1D757A5A0093CD41 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				E2FA61731D7926CD00003890 /* Tools */,
 				E2090A431D757BD50093CD41 /* Application */,
 				E2090A461D757BD50093CD41 /* Controller */,
 				E2090A4C1D76766C0093CD41 /* Cose 01 */,
@@ -151,6 +169,7 @@
 				E2090A4E1D76766C0093CD41 /* Cose 03 */,
 				E2090A4F1D76766C0093CD41 /* Cose 04 */,
 				E2090A501D76766C0093CD41 /* Cose 05 */,
+				E2FA616F1D79243100003890 /* Cose 06 */,
 				E2090A421D757A740093CD41 /* Others */,
 				E2090A0F1D757A5A0093CD41 /* Supporting Files */,
 			);
@@ -256,8 +275,49 @@
 			children = (
 				E2090A5D1D7689A00093CD41 /* Case5ViewController.h */,
 				E2090A5E1D7689A00093CD41 /* Case5ViewController.m */,
+				E2FA617D1D792AD300003890 /* Case5TableViewCell.h */,
+				E2FA617E1D792AD300003890 /* Case5TableViewCell.m */,
+				E2FA617A1D79298D00003890 /* Case5Model.h */,
+				E2FA617B1D79298D00003890 /* Case5Model.m */,
+				E2FA61781D79290100003890 /* data.json */,
 			);
 			path = "Cose 05";
+			sourceTree = "<group>";
+		};
+		E2FA616F1D79243100003890 /* Cose 06 */ = {
+			isa = PBXGroup;
+			children = (
+				E2FA61701D79245700003890 /* Case6ViewController.h */,
+				E2FA61711D79245700003890 /* Case6ViewController.m */,
+			);
+			path = "Cose 06";
+			sourceTree = "<group>";
+		};
+		E2FA61731D7926CD00003890 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E2FA61801D7967BB00003890 /* UILabel-ContentSize */,
+				E2FA61741D79279B00003890 /* NHBaseModel */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E2FA61741D79279B00003890 /* NHBaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				E2FA61751D79279B00003890 /* NHBaseModel.h */,
+				E2FA61761D79279B00003890 /* NHBaseModel.m */,
+			);
+			path = NHBaseModel;
+			sourceTree = "<group>";
+		};
+		E2FA61801D7967BB00003890 /* UILabel-ContentSize */ = {
+			isa = PBXGroup;
+			children = (
+				E2FA61811D7967D700003890 /* UILabel+ContentSize.h */,
+				E2FA61821D7967D700003890 /* UILabel+ContentSize.m */,
+			);
+			path = "UILabel-ContentSize";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +432,7 @@
 				E2090A1F1D757A5A0093CD41 /* LaunchScreen.storyboard in Resources */,
 				E2090A1C1D757A5A0093CD41 /* Assets.xcassets in Resources */,
 				E2090A1A1D757A5A0093CD41 /* Main.storyboard in Resources */,
+				E2FA61791D79290100003890 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,10 +506,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2090A5F1D7689A00093CD41 /* Case5ViewController.m in Sources */,
+				E2FA617C1D79298D00003890 /* Case5Model.m in Sources */,
 				E2090A531D7676970093CD41 /* Case1ViewController.m in Sources */,
 				E2090A471D757BD50093CD41 /* AppDelegate.m in Sources */,
 				E2090A591D76898D0093CD41 /* Case3ViewController.m in Sources */,
+				E2FA617F1D792AD300003890 /* Case5TableViewCell.m in Sources */,
 				E2090A561D7689840093CD41 /* Case2ViewController.m in Sources */,
+				E2FA61771D79279B00003890 /* NHBaseModel.m in Sources */,
+				E2FA61721D79245700003890 /* Case6ViewController.m in Sources */,
+				E2FA61831D7967D700003890 /* UILabel+ContentSize.m in Sources */,
 				E2090A111D757A5A0093CD41 /* main.m in Sources */,
 				E2090A5C1D7689980093CD41 /* Case4ViewController.m in Sources */,
 				E24F1E3F1D76E04C00BDDD64 /* AutoHightTableViewCell.m in Sources */,

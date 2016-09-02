@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/**
+ *  子视图尺寸 为 父视图尺寸的 固定比例
+ */
 @interface Case3ViewController : UIViewController
 
 @end

@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/**
+ *  UITableViewCell 图文混排高度自适应
+ */
 @interface Case5ViewController : UIViewController
 
 @end

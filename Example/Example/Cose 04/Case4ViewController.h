@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/**
+ *  UITableViewCell 文字高度自适应
+ */
 @interface Case4ViewController : UIViewController
 
 @end

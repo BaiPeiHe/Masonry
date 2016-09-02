@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/**
+ *  UILabel 并排显示
+ */
 @interface Case1ViewController : UIViewController
 
 @end

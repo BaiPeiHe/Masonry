@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  多个视图动态居中 可以随意隐藏、显示
+ */
 @interface Case2ViewController : UIViewController
 
 @end

@@ -37,7 +37,7 @@
 
 - (void)createData{
     
-    self.dataArr = [NSMutableArray arrayWithObjects:@"并排 Label",@"动态居中",@"子视图随父视图同步变化",@"变高 UITableViewCell",@"top(bottom)LayoutGuide", nil];
+    self.dataArr = [NSMutableArray arrayWithObjects:@"并排 Label",@"动态居中",@"子视图随父视图同步变化",@"变高 UITableViewCell",@"UItableViewCell 图文混排高度自适应",@"top(bottom)LayoutGuide", nil];
 }
 
 - (void)createView{
