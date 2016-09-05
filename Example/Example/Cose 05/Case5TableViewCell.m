@@ -76,7 +76,7 @@
         make.left.equalTo(self.contentView.mas_left).with.offset(10);
         make.right.equalTo(self.contentView.mas_right).with.offset(-10);
         
-        make.bottom.equalTo(self.picView.mas_top).with.offset(-4);
+        make.bottom.equalTo(self.contentLabel.mas_top).with.offset(-4);
         
         // 固定高度
         make.height.equalTo(@25);
@@ -95,9 +95,7 @@
         make.left.equalTo(self.contentView.mas_left).with.offset(10);
         make.right.equalTo(self.contentView.mas_right).with.offset(-10);
         
-        NSLog(@"%.2f",[self.contentLabel contentSize].height);
-        make.height.equalTo(@([self.contentLabel contentSize].height));
-//        make.bottom.equalTo(self.picView.mas_top).with.offset(-4);
+        make.bottom.equalTo(self.picView.mas_top).with.offset(-4);
     }];
     // 设置高度的 content Hugging
     [self.contentLabel setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
@@ -110,6 +108,7 @@
         make.top.equalTo(self.contentLabel.mas_bottom).with.offset(4);
         
         make.left.equalTo(self.contentView.mas_left).with.offset(10);
+        // 限制宽度,不超过屏幕
         make.width.mas_lessThanOrEqualTo(self.contentView.frame.size.width - 20);
         
         make.bottom.equalTo(self.contentView.mas_bottom).with.offset(-10);
@@ -118,19 +117,6 @@
     // 设置高度的 content Hugging
     [self.imageView setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
     
-}
-
-- (CGSize)sizeThatFits:(CGSize)size{
-    
-    CGFloat height = 0.0;
-    
-    height += self.picView.frame.size.height;
-    height += self.titleLabel.frame.size.height;
-    height += self.contentLabel.frame.size.height;
-    
-    NSLog(@"%.2f",height);
-    
-    return CGSizeMake(size.width, height);
 }
 
 
