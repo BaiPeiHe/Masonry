@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  UItableViewCell 图文混排高度自适应
+ */
 @interface Case6ViewController : UIViewController
 
 @end

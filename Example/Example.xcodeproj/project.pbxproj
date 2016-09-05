@@ -21,6 +21,9 @@
 		E2090A591D76898D0093CD41 /* Case3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A581D76898D0093CD41 /* Case3ViewController.m */; };
 		E2090A5C1D7689980093CD41 /* Case4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A5B1D7689980093CD41 /* Case4ViewController.m */; };
 		E2090A5F1D7689A00093CD41 /* Case5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2090A5E1D7689A00093CD41 /* Case5ViewController.m */; };
+		E24A4A391D7D1D3F006E2FD7 /* Case7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24A4A381D7D1D3F006E2FD7 /* Case7ViewController.m */; };
+		E24A4A3C1D7D233D006E2FD7 /* Case6Model.m in Sources */ = {isa = PBXBuildFile; fileRef = E24A4A3B1D7D233D006E2FD7 /* Case6Model.m */; };
+		E24A4A3F1D7D235E006E2FD7 /* Case6TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E24A4A3E1D7D235E006E2FD7 /* Case6TableViewCell.m */; };
 		E24F1E3F1D76E04C00BDDD64 /* AutoHightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F1E3E1D76E04C00BDDD64 /* AutoHightTableViewCell.m */; };
 		E2FA61721D79245700003890 /* Case6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA61711D79245700003890 /* Case6ViewController.m */; };
 		E2FA61771D79279B00003890 /* NHBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA61761D79279B00003890 /* NHBaseModel.m */; };
@@ -78,6 +81,12 @@
 		E2090A5B1D7689980093CD41 /* Case4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case4ViewController.m; sourceTree = "<group>"; };
 		E2090A5D1D7689A00093CD41 /* Case5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case5ViewController.h; sourceTree = "<group>"; };
 		E2090A5E1D7689A00093CD41 /* Case5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case5ViewController.m; sourceTree = "<group>"; };
+		E24A4A371D7D1D3F006E2FD7 /* Case7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case7ViewController.h; sourceTree = "<group>"; };
+		E24A4A381D7D1D3F006E2FD7 /* Case7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case7ViewController.m; sourceTree = "<group>"; };
+		E24A4A3A1D7D233D006E2FD7 /* Case6Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case6Model.h; sourceTree = "<group>"; };
+		E24A4A3B1D7D233D006E2FD7 /* Case6Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case6Model.m; sourceTree = "<group>"; };
+		E24A4A3D1D7D235E006E2FD7 /* Case6TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case6TableViewCell.h; sourceTree = "<group>"; };
+		E24A4A3E1D7D235E006E2FD7 /* Case6TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case6TableViewCell.m; sourceTree = "<group>"; };
 		E24F1E3D1D76E04C00BDDD64 /* AutoHightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoHightTableViewCell.h; sourceTree = "<group>"; };
 		E24F1E3E1D76E04C00BDDD64 /* AutoHightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoHightTableViewCell.m; sourceTree = "<group>"; };
 		E2FA61701D79245700003890 /* Case6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case6ViewController.h; sourceTree = "<group>"; };
@@ -170,6 +179,7 @@
 				E2090A4F1D76766C0093CD41 /* Cose 04 */,
 				E2090A501D76766C0093CD41 /* Cose 05 */,
 				E2FA616F1D79243100003890 /* Cose 06 */,
+				E24A4A361D7D1CF0006E2FD7 /* Cose 07 */,
 				E2090A421D757A740093CD41 /* Others */,
 				E2090A0F1D757A5A0093CD41 /* Supporting Files */,
 			);
@@ -284,11 +294,25 @@
 			path = "Cose 05";
 			sourceTree = "<group>";
 		};
+		E24A4A361D7D1CF0006E2FD7 /* Cose 07 */ = {
+			isa = PBXGroup;
+			children = (
+				E24A4A371D7D1D3F006E2FD7 /* Case7ViewController.h */,
+				E24A4A381D7D1D3F006E2FD7 /* Case7ViewController.m */,
+			);
+			name = "Cose 07";
+			path = "Tools/Cose 07";
+			sourceTree = "<group>";
+		};
 		E2FA616F1D79243100003890 /* Cose 06 */ = {
 			isa = PBXGroup;
 			children = (
 				E2FA61701D79245700003890 /* Case6ViewController.h */,
 				E2FA61711D79245700003890 /* Case6ViewController.m */,
+				E24A4A3D1D7D235E006E2FD7 /* Case6TableViewCell.h */,
+				E24A4A3E1D7D235E006E2FD7 /* Case6TableViewCell.m */,
+				E24A4A3A1D7D233D006E2FD7 /* Case6Model.h */,
+				E24A4A3B1D7D233D006E2FD7 /* Case6Model.m */,
 			);
 			path = "Cose 06";
 			sourceTree = "<group>";
@@ -513,7 +537,10 @@
 				E2FA617F1D792AD300003890 /* Case5TableViewCell.m in Sources */,
 				E2090A561D7689840093CD41 /* Case2ViewController.m in Sources */,
 				E2FA61771D79279B00003890 /* NHBaseModel.m in Sources */,
+				E24A4A3F1D7D235E006E2FD7 /* Case6TableViewCell.m in Sources */,
+				E24A4A391D7D1D3F006E2FD7 /* Case7ViewController.m in Sources */,
 				E2FA61721D79245700003890 /* Case6ViewController.m in Sources */,
+				E24A4A3C1D7D233D006E2FD7 /* Case6Model.m in Sources */,
 				E2FA61831D7967D700003890 /* UILabel+ContentSize.m in Sources */,
 				E2090A111D757A5A0093CD41 /* main.m in Sources */,
 				E2090A5C1D7689980093CD41 /* Case4ViewController.m in Sources */,

@@ -13,6 +13,8 @@
 #import "Case3ViewController.h"
 #import "Case4ViewController.h"
 #import "Case5ViewController.h"
+#import "Case6ViewController.h"
+#import "Case7ViewController.h"
 
 @interface RootViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -37,7 +39,7 @@
 
 - (void)createData{
     
-    self.dataArr = [NSMutableArray arrayWithObjects:@"并排 Label",@"动态居中",@"子视图随父视图同步变化",@"变高 UITableViewCell",@"UItableViewCell 图文混排高度自适应",@"top(bottom)LayoutGuide", nil];
+    self.dataArr = [NSMutableArray arrayWithObjects:@"并排 Label",@"动态居中",@"子视图随父视图同步变化",@"变高 UITableViewCell",@"UItableViewCell 图文混排高度自适应",@"动态变高度的UITableViewCell",@"top(bottom)LayoutGuide", nil];
 }
 
 - (void)createView{
@@ -112,6 +114,20 @@
             
             Case5ViewController *case5VC = [[Case5ViewController alloc] init];
             [self.navigationController pushViewController:case5VC animated:YES];
+            
+            break;
+        }
+        case 5:{
+            
+            Case6ViewController *case6VC = [[Case6ViewController alloc] init];
+            [self.navigationController pushViewController:case6VC animated:YES];
+            
+            break;
+        }
+        case 6:{
+            
+            Case7ViewController *case7VC = [[Case7ViewController alloc] init];
+            [self.navigationController pushViewController:case7VC animated:YES];
             
             break;
         }
